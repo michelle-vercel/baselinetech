@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vercelian's MySpace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #EDEEF0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border: 1px solid #CCC;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border: 1px solid #CCC;
+            margin-right: 20px;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .status {
+            font-style: italic;
+            color: #666;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-weight: bold;
+            border-bottom: 1px solid #CCC;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .friend-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .friend {
+            width: 100px;
+            text-align: center;
+            margin: 10px;
+        }
+        .friend img {
+            width: 80px;
+            height: 80px;
+            border: 1px solid #CCC;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/placeholder.svg?height=150&width=150" alt="Vercelian's profile picture" class="profile-pic">
+            <div>
+                <div class="name">Vercelian</div>
+                <div class="status">"Deploying happiness, one site at a time!"</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">About Me</div>
+            <p>Hey there! I'm Vercelian, a passionate web developer and Vercel enthusiast. I love creating fast, scalable websites and applications. When I'm not coding, you can find me exploring new tech trends or enjoying a good cup of coffee.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Interests</div>
+            <ul>
+                <li>Web Development</li>
+                <li>Serverless Architecture</li>
+                <li>Next.js</li>
+                <li>React</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Friends (Top 8)</div>
+            <div class="friend-list">
+                <div class="friend">
+                    <img src="/placeholder.svg?height=80&width=80" alt="Friend 1">
+                    <div>NextJS Ninja</div>
+                </div>
+                <div class="friend">
+                    <img src="/placeholder.svg?height=80&width=80" alt="Friend 2">
+                    <div>React Rockstar</div>
+                </div>
+                <div class="friend">
+                    <img src="/placeholder.svg?height=80&width=80" alt="Friend 3">
+                    <div>CSS Wizard</div>
+                </div>
+                <div class="friend">
+                    <img src="/placeholder.svg?height=80&width=80" alt="Friend 4">
+                    <div>API Ace</div>
+                </div>
+                <div class="friend">
+                    <img src="/placeholder.svg?height=80&width=80" alt="Friend 5">
+                    <div>DevOps Diva</div>
+                </div>
+                <div class="friend">
+                    <img src="/placeholder.svg?height=80&width=80" alt="Friend 6">
+                    <div>UX Unicorn</div>
+                </div>
+                <div class="friend">
+                    <img src="/placeholder.svg?height=80&width=80" alt="Friend 7">
+                    <div>TypeScript Titan</div>
+                </div>
+                <div class="friend">
+                    <img src="/placeholder.svg?height=80&width=80" alt="Friend 8">
+                    <div>Webpack Warrior</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Comments</div>
+            <div>
+                <strong>NextJS Ninja:</strong> Hey Vercelian! Thanks for the awesome collab on our last project. You're a deployment wizard! 🚀
+            </div>
+            <div>
+                <strong>React Rockstar:</strong> Your component library is 🔥! Let's catch up soon and talk about that new framework you mentioned.
+            </div>
+            <div>
+                <strong>CSS Wizard:</strong> Vercelian, your designs are always so sleek. Mind sharing some of your secrets? 😉
+            </div>
+        </div>
+    </div>
+</body>
+</html>
